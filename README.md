@@ -4,7 +4,8 @@
   <a href="https://totalminers.io"><strong>totalminers.io</strong></a>
 </p>
 
-![Vue.js](https://shields.io) ![Chart.js](https://shields.io) ![Nginx](https://shields.io) ![Docker](https://shields.io) ![i18n](https://shields.io)
+<p align="center"><img src="https://shields.io" alt="Vue.js">&nbsp;<img src="https://shields.io" alt="Chart.js">&nbsp;<img src="https://shields.io" alt="Nginx">&nbsp;<img src="https://shields.io" alt="Docker">&nbsp;<img src="https://shields.io" alt="i18n"></p>
+
 
 
 
