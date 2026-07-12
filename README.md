@@ -4,13 +4,8 @@
   <a href="https://totalminers.io"><strong>totalminers.io</strong></a>
 </p>
 
-<p align="center">
-  ![Vue.js](https://shields.io)
-  ![Chart.js](https://shields.io)
-  ![Nginx](https://shields.io)
-  ![Docker](https://shields.io)
-  ![i18n](https://shields.io)
-</p>
+<p align="center"><img src="https://shields.io" alt="Vue.js"> <img src="https://shields.io" alt="Chart.js"> <img src="https://shields.io" alt="Nginx"> <img src="https://shields.io" alt="Docker"> <img src="https://shields.io" alt="i18n"></p>
+
 
 
 The official public-facing web platform and user dashboard for the **totalminers.io** mining hotel infrastructure. This frontend application serves as the primary hub for clients to calculate mining profitability, manage hardware units, and monitor live performance data.
