@@ -29,6 +29,7 @@ The official public-facing web platform and user dashboard for the **totalminers
 * **Microservices & REST API Integration:** Heavily integrated into a distributed ecosystem. The client-side application orchestrates communication across multiple backend microservices via REST API to perform direct, real-time miner hardware manipulation.
 * **Web Server & Reverse Proxy:** Structured with a production-optimized `Nginx` server configuration to ensure secure static routing and seamless Single Page Application (SPA) routing fallbacks.
 * **Containerization:** Bundled within a standalone, multi-stage `Docker` configuration for optimized deployment pipelines.
+* * **Many-languages, uses i18n:** Using data-objects for translate text.
 
 ---
 <p align="center">
