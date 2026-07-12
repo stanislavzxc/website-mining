@@ -114,6 +114,7 @@ The project contains a pre-configured Docker pipeline that aggregates structural
         ├── MyStat.vue           # Personalized client stats grid
         ├── AppDashboard.vue     # Aggregated main core container
         └── AppTickets.vue       # Customer billing and text support
+        else...
 ```
 
 ---
