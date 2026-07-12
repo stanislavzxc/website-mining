@@ -6,47 +6,61 @@
 
 <p align="center">
   <img src="https://shields.io" alt="Vue.js">
-  <img src="https://shields.io" alt="Google Charts">
+  <img src="https://shields.io" alt="Chart.js">
   <img src="https://shields.io" alt="Nginx">
   <img src="https://shields.io" alt="Docker">
 </p>
 
-The official public-facing landing page and web platform for the **totalminers.io** mining hotel infrastructure. This application serves as the primary gateway for clients to monitor mining operations, view real-time data visualizations, and explore hosting options.
+The official public-facing web platform and user dashboard for the **totalminers.io** mining hotel infrastructure. This frontend application serves as the primary hub for clients to calculate mining profitability, manage hardware units, and monitor live performance data.
 
 ---
+<p align="center">
+  <img src="./docs/sh.png" alt="Meract Platform Preview" width="100%">
+</p>
 
-## 🛠️ Tech Stack & Features
 
-* **UI Architecture:** `Vue.js` (Vue CLI configuration) utilizing a highly reactive component-based structure.
-* **Data Visualization:** Integrated with industry-standard charting libraries (including Google-backed visualization architectures) to output high-fidelity, real-time analytics for mining pools, profitability computations, and live power grids.
-* **Web Server & Routing:** Optimized `Nginx` configuration acting as a high-speed reverse proxy to deliver static assets smoothly and mitigate performance bottlenecks.
-* **Containerization:** Production-ready `Docker` ecosystem leveraging multi-stage builds.
+## 🛠️ Tech Stack & Key Features
+
+* **UI Architecture:** Built on `Vue.js` (Vue CLI) with a responsive, component-driven dashboard system.
+* **Advanced Visualizations (Chart.js):** Powered by `Chart.js` to render high-fidelity, interactive historical tracking models, including:
+  * Live Bitcoin (BTC) market price trends.
+  * Personal mining statistics, hashrate fluctuations, and performance metrics.
+* **Hardware Power Calculator:** An interactive hardware computation module allowing users to input specific parameters and instantly calculate power requirements, costs, and potential mining yields.
+* **Microservices & REST API Integration:** Heavily integrated into a distributed ecosystem. The client-side application orchestrates communication across multiple backend microservices via REST API to perform direct, real-time miner hardware manipulation.
+* **Web Server & Reverse Proxy:** Structured with a production-optimized `Nginx` server configuration to ensure secure static routing and seamless Single Page Application (SPA) routing fallbacks.
+* **Containerization:** Bundled within a standalone, multi-stage `Docker` configuration for optimized deployment pipelines.
 
 ---
+<p align="center">
+  <img src="./docs/sh1.png" alt="Meract Platform Preview" width="100%">
+</p>
+<p align="center">
+  <img src="./docs/sh2.png" alt="Meract Platform Preview" width="100%">
+</p>
 
 ## 🚀 Local Development Workflow
 
 ### 1. Dependency Resolution
-Fetch and spin up all localized frontend packages:
+Fetch and install all localized frontend packages:
 ```bash
 npm install
 ```
 
 ### 2. Live Hot-Reload Server
-Launch the development engine for immediate coding tracking:
+Launch the local development engine:
 ```bash
 npm run serve
 ```
 > The web application will immediately spin up and point to: `http://localhost:8080/`
 
 ### 3. Production Resource Bundling
-Compile, minify, and compress the assets for staging or live delivery:
+Compile, minify, and compress assets for deployment:
 ```bash
 npm run build
 ```
 
-### 4. Code Hygiene
-Examine script parameters and fix code styling variations:
+### 4. Code Hygiene & Linting
+Examine script parameters and automatically fix syntax anomalies:
 ```bash
 npm run lint
 ```
@@ -74,4 +88,4 @@ The project contains a pre-configured Docker pipeline that aggregates structural
 ## 🗂️ Configuration Blueprints
 
 * `nginx.conf` — Governs content caching headers, single-page application router fallbacks, and standard secure reverse proxy instructions.
-* `vue.config.js` — Handles Webpack engine adjustments, path resolution shortcuts, and proxy configuration hooks.
+* `vue.config.js` — Handles Webpack engine adjustments, path resolution shortcuts, and API proxy configuration hooks for local development.
