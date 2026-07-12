@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="https://shields.io" alt="Vue.js">
-  <img src="https://shields.io" alt="Chart.js">
-  <img src="https://shields.io" alt="Nginx">
-  <img src="https://shields.io" alt="Docker">
-  <img src="https://shields.io" alt="i18n">
+  ![Vue.js](https://shields.io)
+  ![Chart.js](https://shields.io)
+  ![Nginx](https://shields.io)
+  ![Docker](https://shields.io)
+  ![i18n](https://shields.io)
 </p>
 
 
