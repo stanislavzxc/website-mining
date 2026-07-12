@@ -94,3 +94,26 @@ The project contains a pre-configured Docker pipeline that aggregates structural
 
 * `nginx.conf` — Governs content caching headers, single-page application router fallbacks, and standard secure reverse proxy instructions.
 * `vue.config.js` — Handles Webpack engine adjustments, path resolution shortcuts, and API proxy configuration hooks for local development.
+
+## 🗂️ Project Directory Layout
+
+```text
+./
+├── nginx.conf          # Caching & SPA reverse-proxy routing blueprint
+├── vue.config.js       # Webpack aliases & local API proxy settings
+├── public/             # Static root index, favicon, and core assets
+└── src/
+    ├── main.js         # Vue application bootstrapping entrypoint
+    ├── App.vue         # Root component view
+    ├── i18n/           # Global translation files and translation hook
+    ├── router/         # Application view routing configuration
+    └── components/     # Application modular feature blocks
+        ├── BlockCalculator.vue  # Hardware computations engine
+        ├── ChartLine.vue        # Chart.js line graphing wrapper
+        ├── MyMiners.vue         # RestAPI direct hardware management 
+        ├── MyStat.vue           # Personalized client stats grid
+        ├── AppDashboard.vue     # Aggregated main core container
+        └── AppTickets.vue       # Customer billing and text support
+```
+
+---
