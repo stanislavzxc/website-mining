@@ -4,7 +4,13 @@
   <a href="https://totalminers.io"><strong>totalminers.io</strong></a>
 </p>
 
-<p align="center"><img src="https://shields.io" alt="Vue.js">&nbsp;<img src="https://shields.io" alt="Chart.js">&nbsp;<img src="https://shields.io" alt="Nginx">&nbsp;<img src="https://shields.io" alt="Docker">&nbsp;<img src="https://shields.io" alt="i18n"></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js">
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js">
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/i18n-26A69A?style=for-the-badge&logo=google-translate&logoColor=white" alt="i18n">
+</p>
 
 
 
