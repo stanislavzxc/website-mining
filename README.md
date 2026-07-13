@@ -40,7 +40,7 @@ The official public-facing web platform and user dashboard for the **totalminers
   <img src="./docs/sh1.png" alt="Meract Platform Preview" width="100%">
 </p>
 <p align="center">
-  <img src="./docs/sh2.png" alt="Meract Platform Preview" width="100%">
+  <img src="./docs/sh2.jpg" alt="Meract Platform Preview" width="100%">
 </p>
 
 ## 🚀 Local Development Workflow
